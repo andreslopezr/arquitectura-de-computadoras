@@ -1,0 +1,51 @@
+:root
+{
+    --background-color: #D8DDEF;
+    --principal-color: #40798C;
+    --secondary-color: #01BAEF;
+    --letter-color: #231F20;
+    --auxiliar-color: #70A9A1;
+}
+
+.data
+{
+    border: 2px dotted white;
+    border-radius: 10px;
+    height: auto;
+    padding: 2%;
+    background: var(--auxiliar-color);
+    color: var(--letter-color);
+    margin: 0 0 5% 0;
+}
+
+.data span
+{
+    font-size: 26px;
+}
+
+.inline
+{
+    display: flex;
+}
+.data img
+{
+    vertical-align: middle;
+}
+
+.data p
+{
+    margin-left: 5%;
+    text-align: justify;
+}
+
+
+.line
+{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    border: 10px dotted var(--secondary-color);
+    height: 1800px;
+    width: 5px;
+    z-index: -5;
+}
