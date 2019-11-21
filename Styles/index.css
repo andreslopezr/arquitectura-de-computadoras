@@ -1,11 +1,4 @@
-:root
-{
-    --background-color: #D8DDEF;
-    --principal-color: #40798C;
-    --secondary-color: #01BAEF;
-    --letter-color: #231F20;
-    --auxiliar-color: #70A9A1;
-}
+@import "./colors.css";
 
 #unidades a
 {
